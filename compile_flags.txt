@@ -1,0 +1,4 @@
+-xc
+-Iinclude
+-Iinclude/core
+-Iinclude/gen

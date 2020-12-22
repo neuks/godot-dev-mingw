@@ -1,0 +1,33 @@
+source/cpp-example.o: source/cpp-example.cpp source/cpp-example.h \
+ include/core/Godot.hpp include/gdnative_api_struct.gen.h \
+ include/gdnative/gdnative.h include/gdnative/string.h \
+ include/gdnative/array.h include/gdnative/pool_arrays.h \
+ include/gdnative/color.h include/gdnative/vector2.h \
+ include/gdnative/vector3.h include/gdnative/basis.h \
+ include/gdnative/quat.h include/gdnative/variant.h \
+ include/gdnative/aabb.h include/gdnative/plane.h \
+ include/gdnative/dictionary.h include/gdnative/node_path.h \
+ include/gdnative/rect2.h include/gdnative/rid.h \
+ include/gdnative/transform.h include/gdnative/transform2d.h \
+ include/gdnative/string_name.h include/android/godot_android.h \
+ include/arvr/godot_arvr.h include/nativescript/godot_nativescript.h \
+ include/net/godot_net.h include/net/godot_webrtc.h \
+ include/pluginscript/godot_pluginscript.h \
+ include/videodecoder/godot_videodecoder.h include/core/CoreTypes.hpp \
+ include/core/Defs.hpp include/core/GodotGlobal.hpp \
+ include/core/Array.hpp include/core/String.hpp include/core/AABB.hpp \
+ include/core/Vector3.hpp include/core/Plane.hpp include/core/Basis.hpp \
+ include/core/Color.hpp include/core/Dictionary.hpp \
+ include/core/Variant.hpp include/core/NodePath.hpp \
+ include/core/PoolArrays.hpp include/core/GodotGlobal.hpp \
+ include/core/Vector2.hpp include/core/Quat.hpp include/core/RID.hpp \
+ include/core/Rect2.hpp include/core/Transform.hpp \
+ include/core/Transform2D.hpp include/core/Wrapped.hpp \
+ include/core/Ref.hpp include/gen/Reference.hpp \
+ include/core/CoreTypes.hpp include/core/TagDB.hpp include/gen/Object.hpp \
+ include/core/TagDB.hpp include/gen/Object.hpp \
+ include/gen/GDNativeLibrary.hpp include/core/Ref.hpp \
+ include/gen/Resource.hpp include/gen/Reference.hpp \
+ include/gen/NativeScript.hpp include/gen/Script.hpp \
+ include/gen/Sprite.hpp include/gen/Node2D.hpp include/gen/CanvasItem.hpp \
+ include/gen/Node.hpp

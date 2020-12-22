@@ -1,0 +1,33 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[  ]
+_global_script_class_icons={
+
+}
+
+[application]
+
+config/name="Instance Binding GDNative C Demo"
+config/description="Instance Binding GDNative Demo"
+run/main_scene="res://main.tscn"
+config/icon="res://icon.png"
+
+[gdnative]
+
+singletons=[  ]
+
+[memory]
+
+multithread/thread_rid_pool_prealloc=60
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
